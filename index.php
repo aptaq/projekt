@@ -17,13 +17,19 @@ session_start();
         <input type="password" name="pass" placeholder="Hasło"><br><br>
         <input type="submit" name="przycisk" value="Zaloguj się"><br><br>
       </form>
+      <!-- ten php wyrzuca u mnie na mozilli błędy
+        cos takiego:
+        ', $_SESSION['error'], ''; unset($_SESSION['error']); } ?>
+        wyrzuca to pod formularze logowania nie wiem czemu
 
-    <?php
-    if (isset($_SESSION['error'])){
-      echo '<span class="red">', $_SESSION['error'],'</span>';
-      unset($_SESSION['error']);
-    }
-    ?>
+    -->
+      <?php
+       if (isset($_SESSION['error'])) {
+         echo '<span class="red">', $_SESSION['error'], '</span>';
+         unset($_SESSION['error']);
+       }
+        ?>
+
     </div>
   </body>
 </html>
