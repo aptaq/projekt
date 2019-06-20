@@ -2,7 +2,7 @@
   margin:0 auto;
   width:960px;
   background:0 0 no-repeat url('../images/external_bkg.png');
-  min-height: 737px; 
+  min-height: 737px;
   }
 
 .header,
@@ -13,8 +13,8 @@
   width:960px; }
 
 .header {
-  height:133px; 
-  
+  height:133px;
+
   }
 .header .logo,
 .header .logo a {
@@ -37,7 +37,7 @@
   font-stretch: wider;
   }
 .header .logo a {
-  
+
   width:960px;
   height:100px; }
 .header .logo span {
@@ -48,7 +48,7 @@ width: 50px;
 height: 18px;
 bottom:20px;
 right:0px;
-position:absolute; 
+position:absolute;
 
 }
 div.home
@@ -56,17 +56,17 @@ div.home
 background-image: url('../images/home.png');
 width: 18px;
 height: 18px;
-float: left; 
+float: left;
 
 }
 div.letter
 {
 background-image: url('../images/koperta.png');
 width: 25px;
-height: 16px; 
+height: 16px;
 float: right;
 
-}    
+}
 .subtitle
 {
 color: #cc4e0c;
@@ -145,7 +145,7 @@ div.wyslij
   border: 0px;
  margin-top: 10px;
  float: right;
- 
+
 }
 #wyslij
 {
@@ -166,7 +166,7 @@ border: 0px;
  color: white;
  font-size: 20px;
  font-family: Georgia,serif;
- 
+
 }
 
 .obrazek
@@ -234,12 +234,12 @@ height: 65px;
   height:40px;
   list-style:none; }
 .menu_poziome .menu li {
-    
+
   display:block;
   float:left;
   clear:none;
   margin-left:25px;
-  padding:0 0 0 0;  
+  padding:0 0 0 0;
   height:40px;
   line-height:40px;}
 .menu_poziome .menu li a {
@@ -248,8 +248,8 @@ height: 65px;
   text-decoration:none;
    }
 .menu_poziome .menu li a:hover {
-  text-decoration:none; 
-  color: #cc4e0c; 
+  text-decoration:none;
+  color: #cc4e0c;
   }
 
 .main .content_spacer{
@@ -263,7 +263,7 @@ width:714px;
   clear:none;
   width:240px;
   min-height:580px;
-  background: 0 0 no-repeat url('../images/menu_bkg.png'); 
+  background: 0 0 no-repeat url('../images/menu_bkg.png');
   }
 
 .sidebar_spacer{
@@ -274,7 +274,7 @@ width:240px;
 
 .sidebar .menu {
   margin-top:10px;
-}  
+}
 .sidebar .menu li{
   float:left;
   clear:both;
@@ -299,4 +299,8 @@ width:240px;
   }
 .sidebar .menu li a:hover {
   color: #cc4e0c;
+}
+
+.red {
+  color : red;
 }
